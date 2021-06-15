@@ -12,3 +12,9 @@ Day 2:
        find armstrong.java;
     4 Write a simple Java program which will print Fibonacci series, e.g. 1 1 2 3 5 8 13 ... . up to a given number;
       find fibonaci.java;
+day 3 :
+   kotlin assignments
+    1.) reverse a 32 bit signed integer with overflow handled
+        find solution.kt
+    2.) implement linear search algorithm 
+        find linearsearch.kt
