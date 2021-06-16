@@ -18,3 +18,7 @@ day 3 :
         find solution.kt
     2.) implement linear search algorithm 
         find linearsearch.kt
+    3.) apple distibuted problem
+        find Appledistribute.kt
+    4.) Binary addition of two binary numbers
+        find Binaryaddition.kt
