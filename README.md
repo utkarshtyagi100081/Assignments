@@ -22,3 +22,9 @@ day 3 :
         find Appledistribute.kt
     4.) Binary addition of two binary numbers
         find Binaryaddition.kt
+day 4.:
+   kotlin assignment
+   1.) find number of single occurence
+        find Singlenumber.kt
+   2.) check valid parenthesis or not in a expression
+       find BalancedBracket.kt
