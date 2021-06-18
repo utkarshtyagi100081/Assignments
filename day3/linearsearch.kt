@@ -2,15 +2,15 @@ import java.util.Scanner;
 fun main()
 {
     //implementing linear search algorithm
-    // take input a array from user
+    //  input  array from user
     val input =Scanner(System.`in`)
     println("enter the size of array")
     val size=input.nextInt()
     var array = Array(size){0}
     println("enter the  array element")
-    for(i in 0 until size){
-        val ele = input.nextInt()
-        array.set(i,ele)
+    for(position in 0 until size){
+        val inputelement = input.nextInt()
+        array.set(position,inputelement)
     }
     println("enter the element to be search")
     val element = input.nextInt()
@@ -22,18 +22,15 @@ fun main()
 class LinearSearch{
 
     var flag = false // set flag false initally
-
-    fun search(a: Array<Int>, size:Int, element:Int){
-        for ( ele in a.indices){
-            if(a[ele]==element){
-
-                println("$element found at position ${ele+1}")
+    fun search(array: Array<Int>, size:Int, element:Int){
+        for ( inputelement in array.indices){
+            if(array[inputelement]==element){
+                println("$element found at position ${inputelement+1}")
                 break
             }else{
-                var flag = true// element not found then set it true
+                flag = true// element not found then set it true
             }
         }
-
         if(flag){ println("$element not found")}
     }
 }
