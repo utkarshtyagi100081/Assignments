@@ -22,4 +22,14 @@ public class JsonUtil {
         }
         return jsonResult;
     }
+    public static <T> T convertJsonToJava(String jsonString,Class<T> cls){
+        T result = null;
+        try {
+            result=mapper.readValue(jsonString,cls);
+        } catch (IOException e) {
+            System.out.println("IOException in convertJsonToJava method");
+        }
+        return result;
+
+    }
 }
